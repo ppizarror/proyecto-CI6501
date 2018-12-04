@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>PMA</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</HEAD>
+<BODY  onLoad="MM_preloadImages('images/bot_actividad_b.gif','images/bot_materiales_b.gif','images/bot_proveedores_b.gif','images/bot_cattec_b.gif','images/bot_biblio_b.gif','images/bot_tablas_b.gif','images/bot_presupuestador_b.gif','images/bot_contactenos_b.gif')">
+
+<style type="text/css">
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+<!--
+.xl27
+	{mso-style-parent:style0;
+	font-size:14.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+-->
+.xl34normal
+	{mso-style-parent:style0;
+	mso-number-format:"\@";}
+.xl34gris
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
+	color:gray;}
+
+
+
+
+
+
+
+
+
+
+.xl25
+	{mso-style-parent:style0;
+	background:#969696;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl34
+	{mso-style-parent:style0;
+	text-align:right;}
+.xl28
+	{mso-style-parent:style0;
+	color:black;
+	font-size:16.0pt;
+	font-weight:700;
+	font-family:arial, sans-serif;
+	mso-font-charset:0;}
+.xl29
+	{mso-style-parent:style0;
+	color:red;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:arial, sans-serif;
+	mso-font-charset:0;}
+.xl30
+	{mso-style-parent:style0;
+	color:navy;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:arial, sans-serif;
+	mso-font-charset:0;}
+.xl31
+	{mso-style-parent:style0;
+	color:#003300;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl32
+	{mso-style-parent:style0;
+	color:purple;
+	font-size:12.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+</style>
+
+
+<!--
+<a href="javascript:expandir('a1')">Mostrar/Ocultar</a>
+</p>
+<div id="a1" class="hidden">
+Valores
+</div>
+<br>
+<a href="javascript:expandir('a2')">Mostrar/Ocultar</a>
+<div id="a2" class="hidden">
+Valores
+</div>
+-->
+<div id="cont_div">
+<br>
+ <div id="div_cabecera" >
+  <table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0"  >
+   <tr>
+     <td class="TitCapitulo">&nbsp;</td>
+     <td class="TitCapitulo">Obra:
+       Presupuesto taller</td>
+   </tr>
+   <tr>
+     <td class="TitCapitulo">&nbsp;</td>
+     <td class="TitCapitulo">Fecha Presupuesto:
+       30/11/2018</td>
+   </tr>
+   <tr>
+     <td class="TitCapitulo" width="31%">&nbsp;</td>
+     <td class="TitCapitulo" width="31%">.</td>
+   </tr>
+   <tr>
+     <td class="TitCapitulo">&nbsp;</td>
+     <td class="TitCapitulo">.</td>
+   </tr>
+   <tr>
+     <td class="TitCapitulo" >&nbsp;</td>
+     <td class="TitCapitulo" >.</td>
+   </tr>
+   <tr>
+     <td class="TitCapitulo" >&nbsp;</td>
+     <td class="TitCapitulo" >Fecha exportaci&oacute;n:
+         03/12/2018</td>
+   </tr>
+ </table>
+ </div>
+ <div id="div_impresion">
+ <table width="95%"  border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td colspan="7" class="texto"><div id="div_totales">&nbsp;</div>
+          <input type="hidden" name="resultados" value="166"></td>
+      </tr>
+	  
+	  <tr>
+	  	<td width="10%">&nbsp;</td>
+		<td width="9%">&nbsp;</td>
+		<td width="36%">&nbsp;</td>
+		<td width="10%">&nbsp;</td>
+		<td width="10%">&nbsp;</td>
+		<td width="10%">&nbsp;</td>
+		<td width="15%">&nbsp;</td>
+	  </tr>
+      <tr>
+        <td height="1" class="TDlinea" colspan="7"></td>
+      </tr><tr>
+	     <td colspan="7" class="texto">
+		 <table width="50%"  border="0" cellspacing="0" cellpadding="0">
+           <tr>
+             <td class="texto" nowrap><!--Despliegue de resultados-->
+			 
+			 <table width="100%"  border="1">
+			   
+				 <tr>
+				  <td width=76 style='width:57pt'>&nbsp;</td>
+				  <td class=xl25 width=76 style='width:57pt'>SubClase</td>
+				  <td class=xl25 width=80 style='width:60pt'>Codigo</td>
+				  <td class=xl25 width=273 style='width:205pt'>Descripcion</td>
+				  <td class=xl25 width=68 style='width:51pt'>cantidad</td>
+				  <td class=xl25 width=80 style='width:60pt'>unidad</td>
+				  <td class=xl25 width=80 style='width:60pt'>Punitario</td>
+				  <td class=xl25 width=80 style='width:60pt'>Subtotal</td>
+				  <td class=xl25 width=80 style='width:60pt'>TOTAL</td>
+				 </tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl28>INSTALACION DE FAENAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>67.249.081,30</td><script language="JavaScript">
+/* code modified from ColdFusion's cfdump code */
+	function dBug_toggleRow(source) {
+		target=(document.all) ? source.parentElement.cells[1] : source.parentNode.lastChild
+		dBug_toggleTarget(target,dBug_toggleSource(source));
+	}
+	
+	function dBug_toggleSource(source) {
+		if (source.style.fontStyle=='italic') {
+			source.style.fontStyle='normal';
+			source.title='click to collapse';
+			return 'open';
+		} else {
+			source.style.fontStyle='italic';
+			source.title='click to expand';
+			return 'closed';
+		}
+	}
+
+	function dBug_toggleTarget(target,switchToState) {
+		target.style.display=(switchToState=='open') ? '' : 'none';
+	}
+
+	function dBug_toggleTable(source) {
+		var switchToState=dBug_toggleSource(source);
+		if(document.all) {
+			var table=source.parentElement.parentElement;
+			for(var i=1;i<table.rows.length;i++) {
+				target=table.rows[i];
+				dBug_toggleTarget(target,switchToState);
+			}
+		}
+		else {
+			var table=source.parentNode.parentNode;
+			for (var i=1;i<table.childNodes.length;i++) {
+				target=table.childNodes[i];
+				if(target.style) {
+					dBug_toggleTarget(target,switchToState);
+				}
+			}
+		}
+	}
+</script>
+
+<style type="text/css">
+	table.dBug_array,table.dBug_object,table.dBug_resource,table.dBug_resourceC,table.dBug_xml {
+		font-family:Verdana, Arial, Helvetica, sans-serif; color:#000000; font-size:12px;
+	}
+	
+	.dBug_arrayHeader,
+	.dBug_objectHeader,
+	.dBug_resourceHeader,
+	.dBug_resourceCHeader,
+	.dBug_xmlHeader 
+		{ font-weight:bold; color:#FFFFFF; }
+	
+	/* array */
+	table.dBug_array { background-color:#006600; }
+	table.dBug_array td { background-color:#FFFFFF; }
+	table.dBug_array td.dBug_arrayHeader { background-color:#009900; }
+	table.dBug_array td.dBug_arrayKey { background-color:#CCFFCC; }
+	
+	/* object */
+	table.dBug_object { background-color:#0000CC; }
+	table.dBug_object td { background-color:#FFFFFF; }
+	table.dBug_object td.dBug_objectHeader { background-color:#4444CC; }
+	table.dBug_object td.dBug_objectKey { background-color:#CCDDFF; }
+	
+	/* resource */
+	table.dBug_resourceC { background-color:#884488; }
+	table.dBug_resourceC td { background-color:#FFFFFF; }
+	table.dBug_resourceC td.dBug_resourceCHeader { background-color:#AA66AA; }
+	table.dBug_resourceC td.dBug_resourceCKey { background-color:#FFDDFF; }
+	
+	/* resource */
+	table.dBug_resource { background-color:#884488; }
+	table.dBug_resource td { background-color:#FFFFFF; }
+	table.dBug_resource td.dBug_resourceHeader { background-color:#AA66AA; }
+	table.dBug_resource td.dBug_resourceKey { background-color:#FFDDFF; }
+	
+	/* xml */
+	table.dBug_xml { background-color:#888888; }
+	table.dBug_xml td { background-color:#FFFFFF; }
+	table.dBug_xml td.dBug_xmlHeader { background-color:#AAAAAA; }
+	table.dBug_xml td.dBug_xmlKey { background-color:#DDDDDD; }
+</style>
+
+</tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CIERRES PROVISORIOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>4.805.307,30</td></tr><tr><td>&nbsp;</td><td class=x136>AC</td><td class=xl34>03209</td><td class=xl36>CIERRO HGON.POSTE C/CODO h=2.00 mt.</td><td class=xl34>202,00</td><td class=xl36>ml</td><td>23.788,65</td><td>4.805.307,30</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CONSTRUCCIONES PROVISORIAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>18.977.140,00</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70004</td><td class=xl36>OFICINAS GENERALES Y DE LA ITO</td><td class=xl34>210,00</td><td class=xl36>m2</td><td>45.582,00</td><td>9.572.220,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70005</td><td class=xl36>BODEGA DE MATERIALES</td><td class=xl34>45,00</td><td class=xl36>m2</td><td>45.582,00</td><td>2.051.190,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70006</td><td class=xl36>TALLERES DE TRABAJO</td><td class=xl34>45,00</td><td class=xl36>m2</td><td>45.582,00</td><td>2.051.190,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70007</td><td class=xl36>COMEDORES Y OTROS</td><td class=xl34>45,00</td><td class=xl36>m2</td><td>45.582,00</td><td>2.051.190,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70009</td><td class=xl36>SERVICIOS HIGIENICOS</td><td class=xl34>8,60</td><td class=xl36>m2</td><td>378.064,00</td><td>3.251.350,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>INSTALACIONES PROVISORIAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>43.466.634,00</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70010</td><td class=xl36>INST.ELECT. DE FAENA</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>11.532.293,00</td><td>11.532.293,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70011</td><td class=xl36>INST. ALCANTARILLADO PROV.</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>294.943,00</td><td>294.943,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70012</td><td class=xl36>INST. AGUA POTABLE PROV.</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>2.761.744,00</td><td>2.761.744,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70013</td><td class=xl36>COMUNICACIONES (TEL Y FAX)</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>1.716.035,00</td><td>1.716.035,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70014</td><td class=xl36>GAS</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>804.391,00</td><td>804.391,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70015</td><td class=xl36>PETROLEO Y OTROS INSUMOS P/PRUE</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>509.448,00</td><td>509.448,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70016</td><td class=xl36>LETREROS</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>723.952,00</td><td>723.952,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70017</td><td class=xl36>ARCH.PLANOS Y PLANOS AS BUILT</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>670.326,00</td><td>670.326,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70018</td><td class=xl36>ACOPIO MAT. Y EXTRAC. ESCOMBROS</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>12.923.891,00</td><td>12.923.891,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70019</td><td class=xl36>REP.VEREDA Y DEMAS VIA PUBLICA</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>4.290.088,00</td><td>4.290.088,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70020</td><td class=xl36>ASEO Y LIMPIEZA FINAL</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>5.094.479,00</td><td>5.094.479,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70021</td><td class=xl36>APOYO CONTRATOS PARALELOS</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>2.145.044,00</td><td>2.145.044,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl28>OBRA GRUESA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>387.341.212,88</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>EDIFICIO A</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>387.341.212,88</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>TRAZADO Y NIVELES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>9.545.445,00</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70022</td><td class=xl36>REPLANTEO</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>1.501.530,00</td><td>1.501.530,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>YM</td><td class=xl34>70023</td><td class=xl36>TRAZADOS Y NIVELES</td><td class=xl34>1,00</td><td class=xl36>gl</td><td>8.043.915,00</td><td>8.043.915,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>MOVIMIENTO DE TIERRA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>2.805.651,02</td></tr><tr><td>&nbsp;</td><td class=x136>BA</td><td class=xl34>00970</td><td class=xl36>EXCAVACIONES A MAQUINA</td><td class=xl34>0,20</td><td class=xl36>m3</td><td>8.192,60</td><td>1.638,52</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>BA</td><td class=xl34>00682</td><td class=xl36>EXCAVACIONES A MANO</td><td class=xl34>150,00</td><td class=xl36>m2</td><td>787,75</td><td>118.162,50</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>BA</td><td class=xl34>70004</td><td class=xl36>RELLENOS COMPACTADOS</td><td class=xl34>300,00</td><td class=xl36>m3</td><td>7.902,50</td><td>2.370.750,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>BA</td><td class=xl34>00190</td><td class=xl36>EXTRACCION DE EXCEDENTES</td><td class=xl34>400,00</td><td class=xl36>m3</td><td>787,75</td><td>315.100,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>HORMIGONES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>209.451.550,32</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl31>EMPLANTILLADOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>4.939.792,00</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70005</td><td class=xl36>EMPLANTILLADOS</td><td class=xl34>100,00</td><td class=xl36>m3</td><td>49.397,92</td><td>4.939.792,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl31>RADIER DE HORMIGON</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>16.256.920,23</td></tr><tr><td>&nbsp;</td><td class=x136>QA</td><td class=xl34>00270</td><td class=xl36>B.ESTAB. BAJO RADIER E = 15 CMS</td><td class=xl34>195,50</td><td class=xl36>m3</td><td>24.770,55</td><td>4.842.642,52</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>00209</td><td class=xl36>HORMIGON RADIERES</td><td class=xl34>1.403,50</td><td class=xl36>m2</td><td>6.933,63</td><td>9.731.349,70</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>AA</td><td class=xl34>70024</td><td class=xl36>TERMINACION CON HELICOPTERO</td><td class=xl34>1.191,60</td><td class=xl36>m2</td><td>1.068,00</td><td>1.272.629,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>AA</td><td class=xl34>70025</td><td class=xl36>TERM.HORM.ESTRIADO RAMPA</td><td class=xl34>139,70</td><td class=xl36>m2</td><td>2.937,00</td><td>410.299,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl31>HORMIGONES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>183.065.242,09</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70008</td><td class=xl36>HORMIGON FUNDACIONES</td><td class=xl34>17,00</td><td class=xl36>m3</td><td>83.409,80</td><td>1.417.966,60</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70009</td><td class=xl36>HORMIGON SUBTERRANEO</td><td class=xl34>17,00</td><td class=xl36>m3</td><td>83.409,80</td><td>1.417.966,60</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70010</td><td class=xl36>HORMIGON VIGAS</td><td class=xl34>89,00</td><td class=xl36>m3</td><td>83.409,80</td><td>7.423.472,20</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70011</td><td class=xl36>HORMIGON LOSAS</td><td class=xl34>16,60</td><td class=xl36>m3</td><td>83.409,80</td><td>1.384.602,68</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70012</td><td class=xl36>HORMIGON PILARES</td><td class=xl34>105,30</td><td class=xl36>m3</td><td>69.809,00</td><td>7.350.887,70</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70013</td><td class=xl36>HORMIGON DE MUROS</td><td class=xl34>918,20</td><td class=xl36>m3</td><td>69.809,00</td><td>64.098.623,80</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70007</td><td class=xl36>HORMIGONES CON ADITIVO IMPERMEABILIZANTE</td><td class=xl34>42,50</td><td class=xl36>m3</td><td>23.133,00</td><td>983.152,50</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>CA</td><td class=xl34>70014</td><td class=xl36>HORMIGONES POSTENSADO</td><td class=xl34>1.028,40</td><td class=xl36>m3</td><td>96.254,93</td><td>98.988.570,01</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl31>SOBRELOSAS DE MORTERO 7 CM</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>5.189.596,00</td></tr><tr><td>&nbsp;</td><td class=x136>AA</td><td class=xl34>70027</td><td class=xl36>SOBRELOSAS TERRAZAS  y 1 PISO</td><td class=xl34>40,20</td><td class=xl36>m2</td><td>5.978,00</td><td>240.316,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>AA</td><td class=xl34>70028</td><td class=xl36>SOBRELOSAS DE MORTERO 7 CM</td><td class=xl34>1.227,50</td><td class=xl36>m2</td><td>4.032,00</td><td>4.949.280,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>MOLDAJES</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td class=x136>DA</td><td class=xl34>70015</td><td class=xl36>MOLDAJE FUNDACIONES</td><td class=xl34>275,60</td><td class=xl36>m2</td><td>8.735,99</td><td>2.407.638,84</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>DA</td><td class=xl34>70016</td><td class=xl36>MOLDAJE DE VIGAS</td><td class=xl34>927,70</td><td class=xl36>m2</td><td>32.414,44</td><td>30.070.875,99</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>DA</td><td class=xl34>70017</td><td class=xl36>MOLDAJE DE LOSAS</td><td class=xl34>5.994,00</td><td class=xl36>m2</td><td>31.784,44</td><td>190.515.933,36</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>DA</td><td class=xl34>70018</td><td class=xl36>MOLDAJE DE PILARES</td><td class=xl34>750,00</td><td class=xl36>m2</td><td>31.887,44</td><td>23.915.580,00</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>DA</td><td class=xl34>70019</td><td class=xl36>MOLDAJE DE MUROS</td><td class=xl34>5.242,50</td><td class=xl36>m2</td><td>31.887,44</td><td>167.169.904,20</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>ACERO DE REFUERZO</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>165.538.566,54</td></tr><tr><td>&nbsp;</td><td class=x136>EA</td><td class=xl34>70020</td><td class=xl36>ACERO REF. FUNDACIONES</td><td class=xl34>6.845,50</td><td class=xl36>kg</td><td>399,00</td><td>2.731.354,50</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>EA</td><td class=xl34>70021</td><td class=xl36>ACERO REFUERZO DE VIGAS</td><td class=xl34>23.493,80</td><td class=xl36>kg</td><td>461,00</td><td>10.830.641,80</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>EA</td><td class=xl34>70022</td><td class=xl36>ACERO REFUERZO DE LOSAS</td><td class=xl34>48.258,80</td><td class=xl36>kg</td><td>941,20</td><td>45.421.182,56</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>EA</td><td class=xl34>70023</td><td class=xl36>ACERO REFUERZO DE PILARES</td><td class=xl34>47.871,80</td><td class=xl36>kg</td><td>461,00</td><td>22.068.899,80</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td class=x136>EA</td><td class=xl34>70024</td><td class=xl36>ACERO REFUERZO DE MUROS</td><td class=xl34>90.923,90</td><td class=xl36>kg</td><td>929,20</td><td>84.486.487,88</td><td class=xl34>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>ESTRUCTURA DE ACERO</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>IMPERMEABILIZACIONES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>ESTUCOS</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>CORNISAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>CUBIERTAS Y TECHUMBRE</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>HOJALATERIAS</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl30>PROCT. ESTRUCTURAS METALICAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl28>TERMINACIONES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>TABIQUES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>REVESTIMIENTOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CIELOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>PAVIMENTOS G/POLVOS Y CORNISAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>ESCALERAS Y GRADAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>PUERTAS Y MARCOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>ALUMINIOS CRISTALES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>BARANDAS Y PASAMANOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>QUINCALLERIA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>PINTURAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>ARTEFACTOS SANITARIOS Y ACCESO.</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CARPINTERIA METALICA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>MUEBLES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CASETA CONTROL VEHICULAR</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>INSTALACIONES SANITARIAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl28>PARTIDAS GENERALES</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CANALES A.LL. DE TERRAZAS,RAMP.</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>IZAJE EQUIPOS CLIMATIZACION</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>EXTRACCION BASURA LOCATARIOS</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>PISO FALSO ELEVADO</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl28>OTRAS PARTIDAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>QUIEBRAVISTA CON REVEST 84R</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CIELO TRUPAN ENCHAPADO</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>RECEPTACULO PARA DUCHA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>DISPENSADOR DE PAPEL</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CIERRE LATERAL SALA ELECTRICA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>CONTROL ACCESO VEHICULAR</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>REVESTIMIENTO CHAMBRANAS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>E.METALICA SALA ELECTRICA</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>REJAS RAMPA DE ACCESO</td><td class=x134>0,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=xl29>E.METALICA ALTILLO 1-2-4 PISOS</td><td class=x134>1,00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class=x134>0,00</td></tr>             </table>
+			 </td>
+           </tr>
+         </table> </td>
+    <tr>
+	
+</tr>
+
+  </table>
+  </div>
+</div>
+
+<script language="javascript">	
+	//window.print(document.cont_div);
+	//setTimeout("imprimir();",1000);
+	//parent.document.form1.imprime.value = "N";
+	//parent.impresora();
+</script>
+<script language="javascript">	
+	//traspaso();
+</script>
+<table width="95%"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="TitCapitulo"><br>Resumen</td>
+  </tr>
+  <tr>
+    <td height="1" class="TDNegro"><img src="images/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr><td height="6"></td></tr>
+  <tr>
+    <td>
+  
+		
+  <table width="50%"  border="0" align="left" cellpadding="0" cellspacing="0">
+	  <tr>
+		  <td width="500" valign="top">
+		  <form name="myform">
+			  <table width="500"  border="0" align="left" cellpadding="0" cellspacing="0">
+			  	
+  <input type="hidden" value="1" name="ordenMax">
+              		  <tr>
+                		  <td height="1" colspan="6" align="left" class="grisoscuroresumen"></td>
+              		  </tr>
+					  
+              		<tr>
+  	          		 	  <td width="40" height="20" class="grismedioresumen"><div align="center">&nbsp;</div></td>
+               			  <td width="40" height="20" class="grismedioresumen"><div align="center">&nbsp;</div></td>
+                		  <td width="40" height="20" align="right" class="grismedioresumen"><div align="right">1</div></td>
+                		  <td width="300" align="right" class="grismedioresumen" ><strong>Total</strong></td>
+                		  <td width="70" class="grismedioresumen"><div align="right">&nbsp;</div></td>
+                		  <td width="50" class="grismedioresumen"><div align="center">&nbsp;</div></td>
+       		    </tr>
+       		  </table>
+		    </form>
+	      </td>
+          	  <td width="0%" bgcolor="#FFFFFF">&nbsp; </td>
+          	  <td width="100%" valign="top"><div align="right"> </div>
+              	  <table width="27%"  border="0" align="right" cellpadding="0" cellspacing="0">
+			                  	  <tr>
+                  		  <td height="1" colspan="4" align="right" class="grisoscuroresumen"></td>
+                	  </tr>
+                	  <tr>
+                  		  <td class="blancoresumen" height="20" align="right"><div align="right"><strong>
+						                        		  454.590.294                  		  </strong></div></td>
+                	  </tr>
+  
+            	</table>
+              </td>
+        </tr>
+  </table>
+  
+		
+  
+<table width="100%"  border="0" cellspacing="0" cellpadding="4">
+	  <tr>
+	  		  <td width="110" class="grisclaroresumen" align="right"><strong>&nbsp;</strong></td>
+      </tr>
+  
+
+	    
+      <tr>
+          <td height="3" class="grisclaroresumen"></td>
+          <td class="grisclaroresumen"></td>
+		  <td></td>
+          <td class="grisclaroresumen"></td>
+		  <td class="grisclaroresumen"></td>
+        </tr>
+	    
+  </table></td></tr>
+  <tr><td height="6">
+	</td></tr>
+</table>
+  <iframe id="mover_funciones" name="mover_funciones" width="0" height="0" ></iframe>
+
+  
+
+
+</BODY>
+</HTML>
